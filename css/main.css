@@ -1,0 +1,35 @@
+
+a{
+    color: #777777;
+}
+
+.myname{
+    margin-top: 0;
+    background: #4aaaa5;
+    padding: 10px;
+}
+
+.navbar-left li::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 14px;
+    background-color: red;
+    top:18px;
+    left: 0;
+
+}
+.box{
+    margin-top: 100px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 1;
+    border-top: 2px solid #ccc;
+}
+
+.navbar {
+    padding: 0;
+}
