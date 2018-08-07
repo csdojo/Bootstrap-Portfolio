@@ -32,11 +32,37 @@ a{
 .rowbb{
     margin-right:0px;
     margin-left: 0px;
+    background-repeat: no-repeat;
 }
-.copyright{
-    margin:670px;
-}
+
 
 .footerc{
     background-color: #666666;
+}
+
+.banner{
+    width:100%;
+    padding: 2%;
+    margin-top: 110px;
+    background: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+
+}
+.backg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-group{
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.submit,
+.reset{
+    background: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
 }
