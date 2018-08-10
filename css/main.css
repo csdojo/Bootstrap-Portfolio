@@ -68,3 +68,8 @@ a{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #ffffff;
 }
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
