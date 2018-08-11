@@ -73,3 +73,18 @@ a{
     padding-right: 0;
     padding-left: 0;
 }
+
+#finger{
+    margin-top: -45px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    animation-name: moveto;
+    animation-duration: 3s;
+
+}
+
+@keyframes moveto{
+    from{ transform: translateX(0)}
+    to{ transform: translateX(300px)}
+}
